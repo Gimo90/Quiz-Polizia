@@ -27,11 +27,11 @@ st.markdown("""
     }
     .stSelectbox label, .stRadio label {
         font-size: 16px;
-        color: #f4f4f5; /* White text for better contrast on dark background */
+        color: white;
         font-family: 'Helvetica', sans-serif;
         font-weight: bold;
     }
-    .stMarkdown, .stDataFrame, .stSubheader {
+    .stMarkdown, .stSubheader {
         background-color: #f4f4f5;
         padding: 1.5em;
         border-radius: 10px;
@@ -39,6 +39,25 @@ st.markdown("""
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
         font-family: 'Helvetica', sans-serif;
         font-weight: bold;
+    }
+    section[data-testid="stVerticalBlock"] div[data-testid="stHorizontalBlock"] > div:first-child {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+    .element-container:has(div[data-testid="stMetricValue"]) {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+    .stDataFrame, .stTable {
+        background-color: #f4f4f5 !important;
+        box-shadow: none !important;
+        border-radius: 0px !important;
+    }
+[data-testid="stHorizontalBlock"] > div, [data-testid="stVerticalBlock"] > div {
+        background-color: #f4f4f5 !important;
+        box-shadow: none !important;
     }
 </style>
 """, unsafe_allow_html=True)
