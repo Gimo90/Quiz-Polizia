@@ -1,35 +1,35 @@
 # Quiz Polizia di Stato
 
-This is an interactive quiz app designed to help candidates prepare for the **Polizia di Stato** entrance exams.
+Questa è un'applicazione interattiva pensata per aiutare i candidati a prepararsi ai **concorsi della Polizia di Stato**.
 
-Built with [Streamlit](https://streamlit.io/), the app offers:
-- ✅ Real multiple-choice questions extracted from actual test prep material
-- 📈 Performance tracking across sessions
-- 🏆 Leaderboards by username
-- 📱 Fully mobile-responsive interface
+Sviluppata con [Streamlit](https://streamlit.io/), l'app offre:
+- ✅ Domande a scelta multipla tratte da banche dati ufficiali
+- 📈 Tracciamento delle prestazioni nel tempo
+- 🏆 Classifica per utente
+- 📱 Interfaccia ottimizzata anche per smartphone
 
-## 🎯 Features
-- Choose question packs by difficulty or topic
-- Get immediate feedback and score at the end
-- Track your average performance over time
-- Gamified experience with trends and rankings
+## 🎯 Funzionalità
+- Selezione del pacchetto di domande per difficoltà o argomento
+- Feedback immediato e punteggio al termine del quiz
+- Andamento delle performance con medie personalizzate
+- Esperienza gamificata con trend e ranking
 
-## 🚀 Try the App
+## 🚀 Prova l’App
 
-Access the live version here:
+Accedi alla versione online qui:
 
 👉 [https://quiz-polizia.streamlit.app](https://quiz-polizia.streamlit.app)
 
-No login required to try the quiz.
-Enter a username to track your performance over time.
+Non è necessario effettuare il login per iniziare il quiz.  
+Inserisci un nome utente per salvare i tuoi risultati nel tempo.
 
-## 🛠️ Tech Stack
+## 🛠️ Tecnologie utilizzate
 
 - Python
 - Streamlit
 - Pandas
-- Altair (for charts)
+- Altair (per i grafici)
 
 ---
 
-Made by [Gimo90](https://github.com/Gimo90) 🇮🇹
+Realizzato da [Gimo90](https://github.com/Gimo90) 🇮🇹
