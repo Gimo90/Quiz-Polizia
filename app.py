@@ -235,7 +235,7 @@ for i, question in enumerate(st.session_state.quiz_questions):
     st.subheader(f"Domanda {i + 1}:")
     st.markdown(
         f"""
-        <p style='font-size:17px; font-family:Helvetica, sans-serif; font-weight:bold; color:#333;'>
+        <p style='font-size:17px; font-family:Helvetica, sans-serif; font-weight:bold; color:#f4f4f5;'>
     {question["question"]}
 </p>
         """,
