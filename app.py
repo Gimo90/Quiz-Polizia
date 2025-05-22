@@ -27,12 +27,12 @@ st.markdown("""
     }
     .stSelectbox label, .stRadio label {
         font-size: 16px;
-        color: #ffffff; /* White text for better contrast on dark background */
+        color: #f4f4f5; /* White text for better contrast on dark background */
         font-family: 'Helvetica', sans-serif;
         font-weight: bold;
     }
     .stMarkdown, .stDataFrame, .stSubheader {
-        background-color: #ffffff;
+        background-color: #f4f4f5;
         padding: 1.5em;
         border-radius: 10px;
         margin-bottom: 1em;
