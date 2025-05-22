@@ -32,7 +32,7 @@ st.markdown("""
         font-weight: bold;
     }
     .stMarkdown, .stSubheader {
-        background-color: #f4f4f5;
+        background-color: #ffffff;
         padding: 1.5em;
         border-radius: 10px;
         margin-bottom: 1em;
@@ -54,10 +54,6 @@ st.markdown("""
         background-color: #f4f4f5 !important;
         box-shadow: none !important;
         border-radius: 0px !important;
-    }
-[data-testid="stHorizontalBlock"] > div, [data-testid="stVerticalBlock"] > div {
-        background-color: #f4f4f5 !important;
-        box-shadow: none !important;
     }
 </style>
 """, unsafe_allow_html=True)
